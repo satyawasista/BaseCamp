@@ -15,6 +15,8 @@ return new class extends Migration
     {
         Schema::create('project_requirement_documents', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('project_category_id');
+            $table->string('document');
             $table->timestamps();
         });
     }

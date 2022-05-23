@@ -22,3 +22,18 @@ Route::get('/', function () {
 Route::get('homeopd', function () {
     return view('homeopd');
 });
+
+//rut landing page
+Route::get('landingpage', function () {
+    return view('landingpage');
+});
+
+//rut home
+Route::get('home', function () {
+    return view('home');
+});
+
+//rut home
+Route::get('monitoring', function () {
+    return view('monitoring');
+});
